@@ -142,32 +142,32 @@ Zadanie_firma/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Zadanie_firma.dir\build.make CMakeFiles/Zadanie_firma.dir/build
 .PHONY : Zadanie_firma/fast
 
-Company.obj: Company.cpp.obj
+company.obj: company.cpp.obj
 
-.PHONY : Company.obj
+.PHONY : company.obj
 
 # target to build an object file
-Company.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Zadanie_firma.dir\build.make CMakeFiles/Zadanie_firma.dir/Company.cpp.obj
-.PHONY : Company.cpp.obj
+company.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Zadanie_firma.dir\build.make CMakeFiles/Zadanie_firma.dir/company.cpp.obj
+.PHONY : company.cpp.obj
 
-Company.i: Company.cpp.i
+company.i: company.cpp.i
 
-.PHONY : Company.i
+.PHONY : company.i
 
 # target to preprocess a source file
-Company.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Zadanie_firma.dir\build.make CMakeFiles/Zadanie_firma.dir/Company.cpp.i
-.PHONY : Company.cpp.i
+company.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Zadanie_firma.dir\build.make CMakeFiles/Zadanie_firma.dir/company.cpp.i
+.PHONY : company.cpp.i
 
-Company.s: Company.cpp.s
+company.s: company.cpp.s
 
-.PHONY : Company.s
+.PHONY : company.s
 
 # target to generate assembly for a file
-Company.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Zadanie_firma.dir\build.make CMakeFiles/Zadanie_firma.dir/Company.cpp.s
-.PHONY : Company.cpp.s
+company.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Zadanie_firma.dir\build.make CMakeFiles/Zadanie_firma.dir/company.cpp.s
+.PHONY : company.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -205,9 +205,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Zadanie_firma
-	@echo ... Company.obj
-	@echo ... Company.i
-	@echo ... Company.s
+	@echo ... company.obj
+	@echo ... company.i
+	@echo ... company.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

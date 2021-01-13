@@ -1,5 +1,5 @@
 #include <iostream>
-#include "Company.h"
+#include "company.h"
 
 int main() {
     //Tworzenie managera

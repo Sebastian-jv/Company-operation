@@ -3,4 +3,4 @@ project(Zadanie_firma)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Zadanie_firma main.cpp Company.cpp Company.h )
+add_executable(Zadanie_firma main.cpp company.cpp company.h)

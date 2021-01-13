@@ -1,4 +1,4 @@
-#include "Company.h"
+#include "company.h"
 
 // ********* Company ***************
 string Company::getNameCompany() {

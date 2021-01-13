@@ -89,29 +89,29 @@ CMakeFiles/Zadanie_firma.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Zadanie_firma.dir/main.cpp.s"
 	D:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Projekty\Programowanie\CiLion\LAB__PO\Zadanie_company\main.cpp -o CMakeFiles\Zadanie_firma.dir\main.cpp.s
 
-CMakeFiles/Zadanie_firma.dir/Company.cpp.obj: CMakeFiles/Zadanie_firma.dir/flags.make
-CMakeFiles/Zadanie_firma.dir/Company.cpp.obj: ../Company.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Projekty\Programowanie\CiLion\LAB__PO\Zadanie_company\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Zadanie_firma.dir/Company.cpp.obj"
-	D:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Zadanie_firma.dir\Company.cpp.obj -c E:\Projekty\Programowanie\CiLion\LAB__PO\Zadanie_company\Company.cpp
+CMakeFiles/Zadanie_firma.dir/company.cpp.obj: CMakeFiles/Zadanie_firma.dir/flags.make
+CMakeFiles/Zadanie_firma.dir/company.cpp.obj: ../company.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Projekty\Programowanie\CiLion\LAB__PO\Zadanie_company\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Zadanie_firma.dir/company.cpp.obj"
+	D:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Zadanie_firma.dir\company.cpp.obj -c E:\Projekty\Programowanie\CiLion\LAB__PO\Zadanie_company\company.cpp
 
-CMakeFiles/Zadanie_firma.dir/Company.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Zadanie_firma.dir/Company.cpp.i"
-	D:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Projekty\Programowanie\CiLion\LAB__PO\Zadanie_company\Company.cpp > CMakeFiles\Zadanie_firma.dir\Company.cpp.i
+CMakeFiles/Zadanie_firma.dir/company.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Zadanie_firma.dir/company.cpp.i"
+	D:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Projekty\Programowanie\CiLion\LAB__PO\Zadanie_company\company.cpp > CMakeFiles\Zadanie_firma.dir\company.cpp.i
 
-CMakeFiles/Zadanie_firma.dir/Company.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Zadanie_firma.dir/Company.cpp.s"
-	D:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Projekty\Programowanie\CiLion\LAB__PO\Zadanie_company\Company.cpp -o CMakeFiles\Zadanie_firma.dir\Company.cpp.s
+CMakeFiles/Zadanie_firma.dir/company.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Zadanie_firma.dir/company.cpp.s"
+	D:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Projekty\Programowanie\CiLion\LAB__PO\Zadanie_company\company.cpp -o CMakeFiles\Zadanie_firma.dir\company.cpp.s
 
 # Object files for target Zadanie_firma
 Zadanie_firma_OBJECTS = \
 "CMakeFiles/Zadanie_firma.dir/main.cpp.obj" \
-"CMakeFiles/Zadanie_firma.dir/Company.cpp.obj"
+"CMakeFiles/Zadanie_firma.dir/company.cpp.obj"
 
 # External object files for target Zadanie_firma
 Zadanie_firma_EXTERNAL_OBJECTS =
 
 Zadanie_firma.exe: CMakeFiles/Zadanie_firma.dir/main.cpp.obj
-Zadanie_firma.exe: CMakeFiles/Zadanie_firma.dir/Company.cpp.obj
+Zadanie_firma.exe: CMakeFiles/Zadanie_firma.dir/company.cpp.obj
 Zadanie_firma.exe: CMakeFiles/Zadanie_firma.dir/build.make
 Zadanie_firma.exe: CMakeFiles/Zadanie_firma.dir/linklibs.rsp
 Zadanie_firma.exe: CMakeFiles/Zadanie_firma.dir/objects1.rsp
